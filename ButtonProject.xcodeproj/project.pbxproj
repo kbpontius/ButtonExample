@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A24E414F1A8BCC81008CF0D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24E414E1A8BCC81008CF0D7 /* AppDelegate.swift */; };
+		A24E41511A8BCC81008CF0D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24E41501A8BCC81008CF0D7 /* ViewController.swift */; };
+		A24E41541A8BCC81008CF0D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24E41521A8BCC81008CF0D7 /* Main.storyboard */; };
+		A24E41561A8BCC81008CF0D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24E41551A8BCC81008CF0D7 /* Images.xcassets */; };
+		A24E41591A8BCC81008CF0D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24E41571A8BCC81008CF0D7 /* LaunchScreen.xib */; };
+		A24E41651A8BCC81008CF0D7 /* ButtonProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24E41641A8BCC81008CF0D7 /* ButtonProjectTests.swift */; };
+		A24E416F1A8BCC91008CF0D7 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24E416E1A8BCC91008CF0D7 /* MyButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A24E415F1A8BCC81008CF0D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A24E41411A8BCC81008CF0D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A24E41481A8BCC81008CF0D7;
+			remoteInfo = ButtonProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A24E41491A8BCC81008CF0D7 /* ButtonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24E414D1A8BCC81008CF0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24E414E1A8BCC81008CF0D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A24E41501A8BCC81008CF0D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A24E41531A8BCC81008CF0D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A24E41551A8BCC81008CF0D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A24E41581A8BCC81008CF0D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A24E415E1A8BCC81008CF0D7 /* ButtonProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24E41631A8BCC81008CF0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24E41641A8BCC81008CF0D7 /* ButtonProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonProjectTests.swift; sourceTree = "<group>"; };
+		A24E416E1A8BCC91008CF0D7 /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A24E41461A8BCC81008CF0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24E415B1A8BCC81008CF0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A24E41401A8BCC81008CF0D7 = {
+			isa = PBXGroup;
+			children = (
+				A24E414B1A8BCC81008CF0D7 /* ButtonProject */,
+				A24E41611A8BCC81008CF0D7 /* ButtonProjectTests */,
+				A24E414A1A8BCC81008CF0D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A24E414A1A8BCC81008CF0D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A24E41491A8BCC81008CF0D7 /* ButtonProject.app */,
+				A24E415E1A8BCC81008CF0D7 /* ButtonProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A24E414B1A8BCC81008CF0D7 /* ButtonProject */ = {
+			isa = PBXGroup;
+			children = (
+				A24E414E1A8BCC81008CF0D7 /* AppDelegate.swift */,
+				A24E41501A8BCC81008CF0D7 /* ViewController.swift */,
+				A24E41521A8BCC81008CF0D7 /* Main.storyboard */,
+				A24E41551A8BCC81008CF0D7 /* Images.xcassets */,
+				A24E41571A8BCC81008CF0D7 /* LaunchScreen.xib */,
+				A24E414C1A8BCC81008CF0D7 /* Supporting Files */,
+				A24E416E1A8BCC91008CF0D7 /* MyButton.swift */,
+			);
+			path = ButtonProject;
+			sourceTree = "<group>";
+		};
+		A24E414C1A8BCC81008CF0D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A24E414D1A8BCC81008CF0D7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A24E41611A8BCC81008CF0D7 /* ButtonProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A24E41641A8BCC81008CF0D7 /* ButtonProjectTests.swift */,
+				A24E41621A8BCC81008CF0D7 /* Supporting Files */,
+			);
+			path = ButtonProjectTests;
+			sourceTree = "<group>";
+		};
+		A24E41621A8BCC81008CF0D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A24E41631A8BCC81008CF0D7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A24E41481A8BCC81008CF0D7 /* ButtonProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24E41681A8BCC81008CF0D7 /* Build configuration list for PBXNativeTarget "ButtonProject" */;
+			buildPhases = (
+				A24E41451A8BCC81008CF0D7 /* Sources */,
+				A24E41461A8BCC81008CF0D7 /* Frameworks */,
+				A24E41471A8BCC81008CF0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonProject;
+			productName = ButtonProject;
+			productReference = A24E41491A8BCC81008CF0D7 /* ButtonProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A24E415D1A8BCC81008CF0D7 /* ButtonProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24E416B1A8BCC81008CF0D7 /* Build configuration list for PBXNativeTarget "ButtonProjectTests" */;
+			buildPhases = (
+				A24E415A1A8BCC81008CF0D7 /* Sources */,
+				A24E415B1A8BCC81008CF0D7 /* Frameworks */,
+				A24E415C1A8BCC81008CF0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A24E41601A8BCC81008CF0D7 /* PBXTargetDependency */,
+			);
+			name = ButtonProjectTests;
+			productName = ButtonProjectTests;
+			productReference = A24E415E1A8BCC81008CF0D7 /* ButtonProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A24E41411A8BCC81008CF0D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Pontius, Kyle";
+				TargetAttributes = {
+					A24E41481A8BCC81008CF0D7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A24E415D1A8BCC81008CF0D7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A24E41481A8BCC81008CF0D7;
+					};
+				};
+			};
+			buildConfigurationList = A24E41441A8BCC81008CF0D7 /* Build configuration list for PBXProject "ButtonProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A24E41401A8BCC81008CF0D7;
+			productRefGroup = A24E414A1A8BCC81008CF0D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A24E41481A8BCC81008CF0D7 /* ButtonProject */,
+				A24E415D1A8BCC81008CF0D7 /* ButtonProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A24E41471A8BCC81008CF0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24E41541A8BCC81008CF0D7 /* Main.storyboard in Resources */,
+				A24E41591A8BCC81008CF0D7 /* LaunchScreen.xib in Resources */,
+				A24E41561A8BCC81008CF0D7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24E415C1A8BCC81008CF0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A24E41451A8BCC81008CF0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24E41511A8BCC81008CF0D7 /* ViewController.swift in Sources */,
+				A24E414F1A8BCC81008CF0D7 /* AppDelegate.swift in Sources */,
+				A24E416F1A8BCC91008CF0D7 /* MyButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24E415A1A8BCC81008CF0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24E41651A8BCC81008CF0D7 /* ButtonProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A24E41601A8BCC81008CF0D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A24E41481A8BCC81008CF0D7 /* ButtonProject */;
+			targetProxy = A24E415F1A8BCC81008CF0D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A24E41521A8BCC81008CF0D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A24E41531A8BCC81008CF0D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A24E41571A8BCC81008CF0D7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A24E41581A8BCC81008CF0D7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A24E41661A8BCC81008CF0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A24E41671A8BCC81008CF0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A24E41691A8BCC81008CF0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ButtonProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A24E416A1A8BCC81008CF0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ButtonProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A24E416C1A8BCC81008CF0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ButtonProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonProject.app/ButtonProject";
+			};
+			name = Debug;
+		};
+		A24E416D1A8BCC81008CF0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ButtonProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonProject.app/ButtonProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A24E41441A8BCC81008CF0D7 /* Build configuration list for PBXProject "ButtonProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24E41661A8BCC81008CF0D7 /* Debug */,
+				A24E41671A8BCC81008CF0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A24E41681A8BCC81008CF0D7 /* Build configuration list for PBXNativeTarget "ButtonProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24E41691A8BCC81008CF0D7 /* Debug */,
+				A24E416A1A8BCC81008CF0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A24E416B1A8BCC81008CF0D7 /* Build configuration list for PBXNativeTarget "ButtonProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24E416C1A8BCC81008CF0D7 /* Debug */,
+				A24E416D1A8BCC81008CF0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A24E41411A8BCC81008CF0D7 /* Project object */;
+}
